@@ -252,7 +252,7 @@ public class GunUtil {
 								} catch (Error | Exception e5) {
 									QAMain.DEBUG("An error has occurred: " + e5.getMessage());
 								}
-							}
+							}//
 
 							if (!bulletProtection) {
 								BulletWoundHandler.bulletHit((Player) hitTarget,
